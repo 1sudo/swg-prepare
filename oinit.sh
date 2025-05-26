@@ -41,4 +41,4 @@ printf --  "\nQue Oracle DB Extract\n"
 
 echo "Setting password for Oracle user"
 #set Oracle User Password
-printf -- "oracle:swgevolve" | sudo chpasswd
+printf -- "oracle:oracle" | sudo chpasswd

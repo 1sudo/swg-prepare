@@ -1,15 +1,5 @@
 #!/bin/bash
 
-#Pause function
-function pause()
-{
-        printf -- "\n\n"
-        read -s -n 1 -p "Press any button to continue setup or ctrl+c to quit..."
-        printf -- "\n\n"
-}
-
-pause
-
 printf -- "\nStarting Oracle Database Installation. Please be patient while it runs.\n\n\n!!!IT IS SAFE TO IGNORE THE WARNINGS AND JUST LET IT RUN!!!\n\n\n"
 
 cd /u01/app/oracle/product/19.3.0/dbhome_1
